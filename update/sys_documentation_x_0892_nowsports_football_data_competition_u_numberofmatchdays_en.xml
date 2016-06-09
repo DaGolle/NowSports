@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_numberofmatchdays" label="numberOfMatchDays" language="en" table="x_0892_nowsports_football_data_competition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_numberofmatchdays</element>
+            <help/>
+            <hint/>
+            <label>numberOfMatchDays</label>
+            <language>en</language>
+            <name>x_0892_nowsports_football_data_competition</name>
+            <plural>numberOfMatchDays</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.van.damme</sys_created_by>
+            <sys_created_on>2016-05-27 17:43:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fd2cd4570fef1200fa31b17ce1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>numberOfMatchDays</sys_name>
+            <sys_package display_value="NowSports" source="x_0892_nowsports">71e31d210f6f1200fa31b17ce1050eb5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NowSports">71e31d210f6f1200fa31b17ce1050eb5</sys_scope>
+            <sys_update_name>sys_documentation_x_0892_nowsports_football_data_competition_u_numberofmatchdays_en</sys_update_name>
+            <sys_updated_by>david.van.damme</sys_updated_by>
+            <sys_updated_on>2016-05-27 17:43:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

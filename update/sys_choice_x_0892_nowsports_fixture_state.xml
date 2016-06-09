@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_0892_nowsports_fixture" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TIMED</label>
+            <language>en</language>
+            <name>x_0892_nowsports_fixture</name>
+            <sequence>0</sequence>
+            <sys_created_by>david.van.damme</sys_created_by>
+            <sys_created_on>2016-05-28 17:52:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7d7a5670f275200fa31b17ce1050eed</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.van.damme</sys_updated_by>
+            <sys_updated_on>2016-05-28 17:55:11</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_0892_nowsports_fixture</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>david.van.damme</sys_created_by>
+            <sys_created_on>2016-05-28 17:49:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7e3765670f275200fa31b17ce1050ed3</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="NowSports" source="x_0892_nowsports">71e31d210f6f1200fa31b17ce1050eb5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NowSports">71e31d210f6f1200fa31b17ce1050eb5</sys_scope>
+            <sys_update_name>sys_choice_x_0892_nowsports_fixture_state</sys_update_name>
+            <sys_updated_by>david.van.damme</sys_updated_by>
+            <sys_updated_on>2016-05-28 17:55:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

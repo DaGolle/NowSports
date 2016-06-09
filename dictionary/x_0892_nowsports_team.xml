@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Team" max_length="40" name="x_0892_nowsports_team" type="collection">
+        <element label="Code" max_length="3" name="code" type="string"/>
+        <element label="Homepage" max_length="1024" name="homepage" type="url"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Name" max_length="500" name="name" type="string"/>
+        <element label="Short Name" max_length="40" name="short_name" type="string"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Football Data Fixture" max_length="40" name="x_0892_nowsports_football_data_fixture" type="collection">
+        <element label="awayTeam" max_length="1000" name="awayteam" type="string"/>
+        <element label="homeTeam" max_length="1000" name="hometeam" type="string"/>
+        <element label="Season" max_length="1000" name="season" type="string"/>
+        <element attributes="import_attribute_name=date,edge_encryption_enabled=true" label="date" max_length="40" name="u_date" type="string"/>
+        <element attributes="import_attribute_name=goalsAwayTeam,edge_encryption_enabled=true" label="goalsAwayTeam" max_length="40" name="u_goalsawayteam" type="string"/>
+        <element attributes="import_attribute_name=goalsHomeTeam,edge_encryption_enabled=true" label="goalsHomeTeam" max_length="40" name="u_goalshometeam" type="string"/>
+        <element attributes="import_attribute_name=Matchday" label="Matchday" max_length="40" name="u_matchday" type="integer"/>
+        <element attributes="import_attribute_name=self,edge_encryption_enabled=true" label="self" max_length="1000" name="u_self" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+    </element>
+</database>

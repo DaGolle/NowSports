@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Fixture" max_length="40" name="x_0892_nowsports_fixture" sizeclass="52" type="collection">
+        <element label="Away score" max_length="40" name="away_score" type="integer"/>
+        <element label="Away team" max_length="32" name="away_team" reference="x_0892_nowsports_team" type="reference"/>
+        <element label="Home score" max_length="40" name="home_score" type="integer"/>
+        <element label="Home team" max_length="32" name="home_team" reference="x_0892_nowsports_team" type="reference"/>
+    </element>
+</database>

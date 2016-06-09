@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Load Football Data Teams</name>
+        <run_as display_value="David Van Damme">a42849510f6b1200fa31b17ce1050e9c</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-05-26 17:10:48</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[try {
+	var r = new sn_ws.RESTMessageV2('x_0892_nowsports.Football Data Teams', 'get');
+	
+	//override authentication profile
+	//authentication type ='basic'/ 'oauth2'
+	//r.setAuthentication(authentication type, profile name);
+	
+	var response = r.execute();
+	var teamArray = JSON.parse(response.getBody()).teams;
+	var httpStatus = response.getStatusCode();
+	
+	if (httpStatus == 200) {
+		for (var team in teamArray) {
+			var grTeam = new GlideRecord('x_0892_nowsports_football_data_team');
+			grTeam.initialize();
+			grTeam.setValue('u_self', teamArray[team]._links.self.href);
+			grTeam.setValue('u_code', teamArray[team].code);
+			grTeam.setValue('u_name', teamArray[team].name);
+			grTeam.setValue('u_shortname', teamArray[team].shortName);
+			grTeam.setValue('u_squadmarketvalue', teamArray[team].squadMarketValue);
+			grTeam.setValue('u_cresturl', teamArray[team].crestUrl);
+			grTeam.insert();
+		}
+	}
+}
+catch(ex) {
+	var message = ex.getMessage();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-26 17:19:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e21b4b720fab1200fa31b17ce1050e1a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Load Football Data Teams</sys_name>
+        <sys_package display_value="NowSports" source="x_0892_nowsports">71e31d210f6f1200fa31b17ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NowSports">71e31d210f6f1200fa31b17ce1050eb5</sys_scope>
+        <sys_update_name>sysauto_script_e21b4b720fab1200fa31b17ce1050e1a</sys_update_name>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-26 19:24:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

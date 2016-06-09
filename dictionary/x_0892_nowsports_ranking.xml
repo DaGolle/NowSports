@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ranking" max_length="40" name="x_0892_nowsports_ranking" type="collection">
+        <element label="Competition" max_length="32" name="competition" reference="x_0892_nowsports_competition" type="reference"/>
+        <element label="Draws" max_length="40" name="draws" type="integer"/>
+        <element label="Losses" max_length="40" name="losses" type="integer"/>
+        <element label="Scored" max_length="40" name="scored" type="integer"/>
+        <element label="Scored against" max_length="40" name="scored_against" type="integer"/>
+        <element label="Team" max_length="32" name="team" reference="x_0892_nowsports_team" type="reference"/>
+        <element label="Wins" max_length="40" name="wins" type="integer"/>
+        <index name="index">
+            <element name="competition"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

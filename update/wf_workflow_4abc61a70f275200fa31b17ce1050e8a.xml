@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["94e314d80fbf5200fa31b17ce1050ead"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_0892_nowsports_competition">type=group^state=1^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="group"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description>Points Based 4 Team Single Fixture Group Competition</description>
+        <expected_sequences>94e314d80fbf5200fa31b17ce1050eae,98e314d80fbf5200fa31b17ce1050ead,dce314d80fbf5200fa31b17ce1050eb3,10e314d80fbf5200fa31b17ce1050eb9,d8e314d80fbf5200fa31b17ce1050ea8,14e314d80fbf5200fa31b17ce1050ebe,98e314d80fbf5200fa31b17ce1050eb8,1ce314d80fbf5200fa31b17ce1050eae,d4e314d80fbf5200fa31b17ce1050eb3|94e314d80fbf5200fa31b17ce1050eae,98e314d80fbf5200fa31b17ce1050ead,dce314d80fbf5200fa31b17ce1050eb3,10e314d80fbf5200fa31b17ce1050eb9,d8e314d80fbf5200fa31b17ce1050ea8,14e314d80fbf5200fa31b17ce1050ebe,98e314d80fbf5200fa31b17ce1050eb8,54e35c980fbf5200fa31b17ce1050e03,d4e314d80fbf5200fa31b17ce1050eb3|d4e314d80fbf5200fa31b17ce1050eb3,d8e314d80fbf5200fa31b17ce1050ebd,94e314d80fbf5200fa31b17ce1050ead</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>94e314d80fbf5200fa31b17ce1050eae,98e314d80fbf5200fa31b17ce1050ead,dce314d80fbf5200fa31b17ce1050eb3,10e314d80fbf5200fa31b17ce1050eb9,d8e314d80fbf5200fa31b17ce1050ea8,14e314d80fbf5200fa31b17ce1050ebe,98e314d80fbf5200fa31b17ce1050eb8,1ce314d80fbf5200fa31b17ce1050eae,d4e314d80fbf5200fa31b17ce1050eb3,d8e314d80fbf5200fa31b17ce1050ebd,94e314d80fbf5200fa31b17ce1050ead|94e314d80fbf5200fa31b17ce1050eae,98e314d80fbf5200fa31b17ce1050ead,dce314d80fbf5200fa31b17ce1050eb3,10e314d80fbf5200fa31b17ce1050eb9,d8e314d80fbf5200fa31b17ce1050ea8,14e314d80fbf5200fa31b17ce1050ebe,98e314d80fbf5200fa31b17ce1050eb8,54e35c980fbf5200fa31b17ce1050e03,d4e314d80fbf5200fa31b17ce1050eb3,d8e314d80fbf5200fa31b17ce1050ebd,94e314d80fbf5200fa31b17ce1050ead</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Points Based 4 Team Single Fixture Group Competition</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">94e314d80fbf5200fa31b17ce1050eae</start>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce35c980fbf5200fa31b17ce1050e02</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:50:17</sys_updated_on>
+        <table>x_0892_nowsports_competition</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Points Based 4 Team Single Fixture Group Competition">4abc61a70f275200fa31b17ce1050e8a</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Points Based 4 Team Single Fixture Group Competition</description>
+        <name>Points Based 4 Team Single Fixture Group Competition</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-28 18:13:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4abc61a70f275200fa31b17ce1050e8a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Points Based 4 Team Single Fixture Group Competition</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NowSports" source="x_0892_nowsports">71e31d210f6f1200fa31b17ce1050eb5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NowSports">71e31d210f6f1200fa31b17ce1050eb5</sys_scope>
+        <sys_update_name>wf_workflow_4abc61a70f275200fa31b17ce1050e8a</sys_update_name>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-28 19:09:43</sys_updated_on>
+        <table>x_0892_nowsports_competition</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>All fixtures done</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>677</x>
+        <y>471</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default display_value="Complete">6dd6ac3e0a6a803f16b5e594347ea01c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default display_value="Incomplete">6dd49ad30a6a803f03a5a18c4085b1c7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">94e314d80fbf5200fa31b17ce1050eae</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>415</x>
+        <y>668</y>
+    </wf_activity>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 1</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:44:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>190</x>
+        <y>138</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:44:55</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 1 Fixture 1</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 1 Fixture 1</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eb4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:44:55</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 1 Fixture 1';&#13;
+task.description = current.short_description + ' Matchday 1 Fixture 1';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dce314d80fbf5200fa31b17ce1050eb3</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 1">dce314d80fbf5200fa31b17ce1050eb3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 2</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>439</x>
+        <y>143</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ebc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:19</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 1 Fixture 2</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 1 Fixture 2</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:19</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050ebb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 1 Fixture 2';&#13;
+task.description = current.short_description + ' Matchday 1 Fixture 2';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>10e314d80fbf5200fa31b17ce1050eb9</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 2">10e314d80fbf5200fa31b17ce1050eb9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 3</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ea8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:51</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>192</x>
+        <y>266</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:51</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>Matchday 2 Fixture 3</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>Matchday 2 Fixture 3</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:45:51</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 2 Fixture 3';&#13;
+task.description = current.short_description + ' Matchday 2 Fixture 3';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ea8</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 3">d8e314d80fbf5200fa31b17ce1050ea8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 4</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:07</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>440</x>
+        <y>270</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ebf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ebf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:07</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ebf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 2 Fixture 4</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 2 Fixture 4</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050ebf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:07</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 2 Fixture 4';&#13;
+task.description = current.short_description + ' Matchday 2 Fixture 4';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>14e314d80fbf5200fa31b17ce1050ebe</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050ebf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 4">14e314d80fbf5200fa31b17ce1050ebe</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 5</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>54e35c980fbf5200fa31b17ce1050e03</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:25</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>432</x>
+        <y>406</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050ea5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050ea5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d4e35c980fbf5200fa31b17ce1050e03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>58e35c980fbf5200fa31b17ce1050e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>10e35c980fbf5200fa31b17ce1050e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ea7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:25</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>5ce35c980fbf5200fa31b17ce1050e03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>94e35c980fbf5200fa31b17ce1050e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>Matchday 3 Fixture 5</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>Matchday 3 Fixture 5</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e35c980fbf5200fa31b17ce1050e04</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:25</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>98e35c980fbf5200fa31b17ce1050e03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 3 Fixture 5';&#13;
+task.description = current.short_description + ' Matchday 3 Fixture 5';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>54e35c980fbf5200fa31b17ce1050e03</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050ea5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 5">54e35c980fbf5200fa31b17ce1050e03</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Fixture 6</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050eae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:40</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>432</x>
+        <y>481</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>x_0892_nowsports_fixture</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>18e314d80fbf5200fa31b17ce1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>9ce314d80fbf5200fa31b17ce1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>10e314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:41</sys_updated_on>
+        <value>Template</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>90e314d80fbf5200fa31b17ce1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 3 Fixture 6</value>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>Matchday 3 Fixture 6</value>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:46:41</sys_updated_on>
+        <value>2674d4d80fbf5200fa31b17ce1050e70</value>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>task.short_description = current.short_description + ' Matchday 3 Fixture 6';&#13;
+task.description = current.short_description + ' Matchday 3 Fixture 6';</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1ce314d80fbf5200fa31b17ce1050eae</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>94e314d80fbf5200fa31b17ce1050eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Fixture 6">1ce314d80fbf5200fa31b17ce1050eae</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>14e314d80fbf5200fa31b17ce1050eb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Generate">452273c50a6a803f275dce98b4fa1a50</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Generate all fixtures</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>166</x>
+        <y>17</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>98e314d80fbf5200fa31b17ce1050ead</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>1ce314d80fbf5200fa31b17ce1050ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">98d09e690a0a0b885093334e4394b042</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>98e314d80fbf5200fa31b17ce1050ead</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">98d11ac60a0a0b882529ae591f5a3276</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Generate all fixtures">98e314d80fbf5200fa31b17ce1050ead</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Branch">a246173ac0a8016400a47421cd41e42c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Last Match Day</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>98e314d80fbf5200fa31b17ce1050eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>179</x>
+        <y>400</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Last Match Day">98e314d80fbf5200fa31b17ce1050eb8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State Closed Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+        <x>188</x>
+        <y>636</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d8e314d80fbf5200fa31b17ce1050ebd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set State Closed Complete">d8e314d80fbf5200fa31b17ce1050ebd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Incomplete">1ce314d80fbf5200fa31b17ce1050eb3</condition>
+        <from display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>50e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Set State Closed Complete">d8e314d80fbf5200fa31b17ce1050ebd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5ce314d80fbf5200fa31b17ce1050eb8</condition>
+        <from display_value="Last Match Day">98e314d80fbf5200fa31b17ce1050eb8</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 6">1ce314d80fbf5200fa31b17ce1050eae</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">18e314d80fbf5200fa31b17ce1050ebd</condition>
+        <from display_value="Fixture 2">10e314d80fbf5200fa31b17ce1050eb9</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>54e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 3">d8e314d80fbf5200fa31b17ce1050ea8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1ce314d80fbf5200fa31b17ce1050ec2</condition>
+        <from display_value="Fixture 4">14e314d80fbf5200fa31b17ce1050ebe</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Last Match Day">98e314d80fbf5200fa31b17ce1050eb8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d0e314d80fbf5200fa31b17ce1050eae</condition>
+        <from display_value="Generate all fixtures">98e314d80fbf5200fa31b17ce1050ead</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>58e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 1">dce314d80fbf5200fa31b17ce1050eb3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">18e314d80fbf5200fa31b17ce1050ea8</condition>
+        <from display_value="Fixture 5">54e35c980fbf5200fa31b17ce1050e03</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>5ce314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">14e314d80fbf5200fa31b17ce1050eb3</condition>
+        <from display_value="Fixture 6">1ce314d80fbf5200fa31b17ce1050eae</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d0e314d80fbf5200fa31b17ce1050ead</condition>
+        <from display_value="Fixture 3">d8e314d80fbf5200fa31b17ce1050ea8</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d0e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 4">14e314d80fbf5200fa31b17ce1050ebe</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5ce314d80fbf5200fa31b17ce1050eb8</condition>
+        <from display_value="Last Match Day">98e314d80fbf5200fa31b17ce1050eb8</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 5">54e35c980fbf5200fa31b17ce1050e03</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">58e314d80fbf5200fa31b17ce1050eae</condition>
+        <from display_value="Begin">94e314d80fbf5200fa31b17ce1050eae</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d4e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Generate all fixtures">98e314d80fbf5200fa31b17ce1050ead</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d4e314d80fbf5200fa31b17ce1050eb8</condition>
+        <from display_value="Fixture 1">dce314d80fbf5200fa31b17ce1050eb3</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Fixture 2">10e314d80fbf5200fa31b17ce1050eb9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">50e314d80fbf5200fa31b17ce1050ebe</condition>
+        <from display_value="Set State Closed Complete">d8e314d80fbf5200fa31b17ce1050ebd</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>d8e314d80fbf5200fa31b17ce1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="End">94e314d80fbf5200fa31b17ce1050ead</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Complete">98e314d80fbf5200fa31b17ce1050eb3</condition>
+        <from display_value="All fixtures done">d4e314d80fbf5200fa31b17ce1050eb3</from>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:11</sys_created_on>
+        <sys_id>dce314d80fbf5200fa31b17ce1050ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:11</sys_updated_on>
+        <to display_value="Set State Closed Complete">d8e314d80fbf5200fa31b17ce1050ebd</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>david.van.damme</sys_created_by>
+        <sys_created_on>2016-05-30 19:41:10</sys_created_on>
+        <sys_id>5ce35c980fbf5200fa31b17ce1050e02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.van.damme</sys_updated_by>
+        <sys_updated_on>2016-05-30 19:41:10</sys_updated_on>
+        <workflow_version display_value="Points Based 4 Team Single Fixture Group Competition">1ce35c980fbf5200fa31b17ce1050e02</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=4abc61a70f275200fa31b17ce1050e8a^sys_id!=1ce35c980fbf5200fa31b17ce1050e02">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
